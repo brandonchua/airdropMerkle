@@ -1,0 +1,35 @@
+{
+  "name": "airdropMerkle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brandonchua/airdropMerkle.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Uniswap/merkle-distributor/issues"
+  },
+  "homepage": "https://github.com/Uniswap/merkle-distributor#readme",
+  "dependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.2.1",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.7.3",
+    "bootstrap": "^5.2.2",
+    "buffer": "^6.0.3",
+    "chai": "^4.3.6",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.3.0"
+  }
+}
